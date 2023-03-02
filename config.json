@@ -1,0 +1,16 @@
+{
+   "apps": [
+      {
+         "name": "stoneman-server",
+         "script": "./src/server.ts",
+         "node_args": ["--debug=7000"]
+      }
+   ],
+   "servers": [
+      {
+         "name": "stoneman-server",
+         "script": "./src/server.ts",
+         "node_args": ["--debug=7000"]
+      }
+   ]
+}
